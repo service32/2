@@ -207,7 +207,7 @@
   const input = document.getElementById('email');  // replace 'id' with id of email field
   const queryString = window.location.search;
   const urlParams = new URLSearchParams(queryString);  //parse the query string
-  const email = urlParams.get('#subscriber');  // Store the parsed email address in variable
+  const email = urlParams.get('subscriber');  // Store the parsed email address in variable
   
    input.value = email;  // fill the form with the email address
 }
